@@ -32,11 +32,27 @@
         </div>
     </nav>
 
-    <header class="text-center my-5">
+    <header class="text-center pt-5">
         <h1>Manage Your Todo's</h1>
     </header>
 
-    <main></main>
+    <div class="container">
+        <main class="d-flex align-items-center justify-content-center todo-container">
+                <div class="row text-center px-5 py-5 pink rounded-4 shadow-lg">
+                    <h2>Add a todo</h2>
+                        <form>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-8">
+                                    <input type="text" class="form-control" placeholder="Buy chocolate milk">
+                                </div>
+                                <div class="col-2">
+                                    <button class="btn btn-primary" type="submit">Add</button>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+        </main>
+    </div>
 
     <footer class="bg-dark py-5">
         <div class="container text-white text-center">
