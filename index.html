@@ -38,18 +38,21 @@
 
     <div class="container">
         <main class="d-flex align-items-center justify-content-center todo-container">
-                <div class="row text-center px-5 py-5 pink rounded-4 shadow-lg">
-                    <h2>Add a todo</h2>
-                        <form>
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-8">
-                                    <input type="text" class="form-control" placeholder="Buy chocolate milk">
+                <div class="row px-5 py-5 pink rounded-4 shadow-lg">
+                    <h2 class="text-center">Add a todo</h2>
+                        <form id="todo-form">
+                            <div class="row d-flex justify-content-cente text-center">
+                                <div class="col-md-10 mb-2">
+                                    <input type="text" class="form-control" id="new-todo" placeholder="Buy chocolate milk">
                                 </div>
-                                <div class="col-2">
-                                    <button class="btn btn-primary" type="submit">Add</button>
+                                <div class="col-md-2">
+                                    <button class="btn btn-primary" id="new-todo-submit" type="submit">Add</button>
                                 </div>
                             </div>
                         </form>
+                        <div id="ul-style" class="mt-5">
+                            <ul class="list-group" id="list-container"></ul>
+                        </div>
                 </div>
         </main>
     </div>
