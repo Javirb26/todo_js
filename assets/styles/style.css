@@ -11,3 +11,7 @@
 .pink {
     background-color: var(--pink);
 }
+
+.todo-container {
+    min-height:  50vh;
+}
